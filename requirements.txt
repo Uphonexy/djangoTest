@@ -1,10 +1,10 @@
 Django==6.0.1
-djangorestframework==3.16.1
-django-extensions==4.1
-django-silk==5.1.0
-djangorestframework-simplejwt==5.5.1
-drf-spectacular==0.27.1
-django-filter==23.5
-gunicorn==23.0.0
-whitenoise==6.11.0
-psycopg2-binary==2.9.9  # Good practice to have for Postgres later, harmless now
+djangorestframework>=3.14.0
+django-extensions
+django-silk>=5.2.0
+djangorestframework-simplejwt
+drf-spectacular
+django-filter>=24.2  # Force newer version for Django 6 compat
+gunicorn
+whitenoise
+psycopg2-binary
