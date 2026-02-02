@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-jiau=)hmrg$@prd^3o-3iy7ksjc4c-9j*ta5rb$v=p&!=k624="
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['djangotest-3-ocfd.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
